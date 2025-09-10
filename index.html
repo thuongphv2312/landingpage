@@ -41,7 +41,6 @@
             .mobile-header .search-button {
                 display: none;
             }
-            /* Căn giữa footer trên mobile */
             .footer-container {
                 text-align: center;
             }
@@ -53,7 +52,7 @@
             }
             .footer-container .grid > div {
                 width: 100%;
-                max-width: 300px;
+                max SCSS-width: 300px;
             }
             .footer-container iframe {
                 width: 100%;
@@ -221,9 +220,8 @@
                                 <span class="bg-red-700 font-bold text-lg px-2 py-1 rounded-md" id="banner-countdown-second">00</span>
                             </div>
                         </div>
-                        
+                        <button id="banner-buy-button" class="bg-red-500 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-red-600 transition-colors duration-300 animate-pulse"></button>
                     </div>
-<button id="banner-buy-button" class="bg-red-500 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-red-600 transition-colors duration-300 animate-pulse"></button>
                 </div>
             </div>
         </div>
@@ -466,16 +464,16 @@
                 footerCopyright: "&copy; 2025 Điện máy Tấn Lụa. All rights reserved."
             },
             categories: [
-                { name: "Thời trang", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
-                { name: "Đồ điện tử", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
-                { name: "Sức khỏe", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
-                { name: "Nhà cửa", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
-                { name: "Thức ăn", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
-                { name: "Du lịch", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
-                { name: "Sách", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
-                { name: "Thể thao", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
-                { name: "Sắc đẹp", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
-                { name: "Đồ gia dụng", icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" }
+                { name: "Thời trang", icon: "https://img.icons8.com/ios-filled/24/000000/t-shirt.png" },
+                { name: "Đồ điện tử", icon: "https://img.icons8.com/ios-filled/24/000000/smartphone.png" },
+                { name: "Sức khỏe", icon: "https://img.icons8.com/ios-filled/24/000000/heart-health.png" },
+                { name: "Nhà cửa", icon: "https://img.icons8.com/ios-filled/24/000000/home.png" },
+                { name: "Thức ăn", icon: "https://img.icons8.com/ios-filled/24/000000/food.png" },
+                { name: "Du lịch", icon: "https://img.icons8.com/ios-filled/24/000000/suitcase.png" },
+                { name: "Sách", icon: "https://img.icons8.com/ios-filled/24/000000/book.png" },
+                { name: "Thể thao", icon: "https://img.icons8.com/ios-filled/24/000000/soccer-ball.png" },
+                { name: "Sắc đẹp", icon: "https://img.icons8.com/ios-filled/24/000000/makeup.png" },
+                { name: "Đồ gia dụng", icon: "https://img.icons8.com/ios-filled/24/000000/kitchenware.png" }
             ],
             footerImages: {
                 zalo: { src: "https://img.icons8.com/ios-filled/24/ffffff/zalo.png", alt: "Zalo Icon", href: "https://zalo.me/0833090186" },
@@ -524,9 +522,7 @@
                 categoryItems.innerHTML += `
                     <div class="flex flex-col items-center">
                         <div class="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center mb-2">
-                            <svg class="h-6 w-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="${category.icon}"/>
-                            </svg>
+                            <img src="${category.icon}" alt="${category.name}" class="h-6 w-6">
                         </div>
                         <span class="text-xs text-gray-600">${category.name}</span>
                     </div>
