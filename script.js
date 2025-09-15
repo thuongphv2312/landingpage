@@ -1,11 +1,12 @@
 // JSON object chứa tất cả hình ảnh và văn bản
 const contentData = {
     pageTitle: "Điện máy Tấn Lụa",
+    productPrice: "1.300.000đ",
     bannerImages: [
-        { src: "https://i.ytimg.com/vi/faG_XV1zaQ4/maxresdefault.jpg", alt: "Sản phẩm 1" },
-        { src: "https://bizweb.dktcdn.net/100/052/428/files/may-cat-co-pin-yamasu-yms-mcc01.jpg?v=1734411132227", alt: "Sản phẩm 2" },
-        { src: "https://milwaukeevietnam.com/wp-content/uploads/2019/04/banner-milwaukee-chuyen-nghiep-manh-me-hieu-qua.jpg", alt: "Sản phẩm 3" },
-        { src: "https://weldcom.vn/wp-content/uploads/2024/11/Banner-website-TUYEN-DAI-LY-1440x600-1-1024x427.png", alt: "Sản phẩm 4" }
+        { src: "https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-6/547277559_122252802716076433_8060441404242581768_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHOQpV6MtuI_ijqejV5VdL4tHurJdwCuh60e6sl3AK6Hp3ArxuQxMLaDgZHfVLti_QUBUCI2e77eaWENFwdkVt_&_nc_ohc=voHZf-iWokkQ7kNvwHc-S_x&_nc_oc=Adk-tIHASj4LnkJqHuOgoOs_IBFZiVUcn4auC5sFu62Y8tgwQOs1KahWXKm9ayHAAgM&_nc_zt=23&_nc_ht=scontent.fhan5-9.fna&_nc_gid=pUedwQWwuISCE07Yh6ILbg&oh=00_AfZSKdpBZXRx7Onty0Bm8HoYLDGIcnk4oh005rwbeWyGnA&oe=68CD8BE8", alt: "Sản phẩm 1" },
+        { src: "https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/547485427_122252802692076433_1505029299060630018_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEa1eQ8Qlwh6h6y3FKGyanzLKmKAAGW_N0sqYoAAZb83YuFQ4VkF4ibMwT289-XEJYEt7jBnpHjt9OBbzCmFP5_&_nc_ohc=YwGByA-qev8Q7kNvwHBswjk&_nc_oc=AdnkhIXqNh7382rSkwRWroxdPnBOXhXaO5C5NTkiB1gWbwCVLW1Iwmut8jUP1Tu_82s&_nc_zt=23&_nc_ht=scontent.fhan5-10.fna&_nc_gid=h8-YllcF963Ac9H2Hdb-oQ&oh=00_Afa_bXwkeRlcvkznDkAbRpfrj6uhF0aZ_55Xv1BJjv4czw&oe=68CD8B6D", alt: "Sản phẩm 2" },
+        { src: "https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-6/547869787_122252802710076433_8033203101123091269_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH2YMJR9dGygqRgWfYMbzcSH4Po7MfEmlUfg-jsx8SaVdMsmiuRIlIJlswyH8k_iQhh8DfuHGIITJUSaoOjX1gx&_nc_ohc=zwTeae1VYPsQ7kNvwHsXYmV&_nc_oc=AdkUlCmO-7gK_9XSIlkNffKkS-Hnv1iLDsqGnDB-fUgp0m-ijRHK3yz7UAVqu2gZ_h8&_nc_zt=23&_nc_ht=scontent.fhan5-9.fna&_nc_gid=vhxzehmJNSTuqK2PbzWfUQ&oh=00_AfbzS5FaxEO8UjpdJzKpesVvKE_hdqZu4QgKwlv6N1P9Pw&oe=68CD90DB", alt: "Sản phẩm 3" },
+        // { src: "https://weldcom.vn/wp-content/uploads/2024/11/Banner-website-TUYEN-DAI-LY-1440x600-1-1024x427.png", alt: "Sản phẩm 4" }
     ],
     products: [
         {
@@ -118,8 +119,10 @@ const contentData = {
         searchPlaceholder: "Điện máy Tấn Lụa - Giảm giá siêu sốc",
         bannerTitle: "SĂN DEAL SIÊU HOT",
         bannerSubtitle: "CHỈ DUY NHẤT HÔM NAY 50 SUẤT ĐẦU TIÊN CHO BÁC NÀO NHANH TAY",
+        bannerInfo: `Đầu xịt ti sứ 2HP giá &nbsp;<s>2.600.000đ</s> &nbsp; <span style="font-size: 28px; font-weight: bold; color: red;">1.300.000đ</span>`,
+        bannerPrice: `1.300.000đ`,
         bannerDiscountLabel: "GIẢM ĐẾN",
-        bannerDiscount: "70%",
+        bannerDiscount: "50%",
         bannerCountdownLabel: "Kết thúc sau:",
         bannerBuyButton: "MUA NGAY",
         flashSaleTitle: "Flash Sale",
@@ -135,22 +138,22 @@ const contentData = {
         orderFormSubmit: "Gửi thông tin đặt hàng",
         footerContactTitle: "Liên hệ",
         footerPhone: "Hotline: <a href='tel:0833090186' class='hover:underline'>0833.090.186</a>",
-        footerAddress: "Địa chỉ: 14 Cầu Giấy, Hà Nội",
+        footerAddress: "Địa chỉ: Cầu tam thôn, nghĩa thái, nghĩa hưng, nam định",
         footerCertificationTitle: "Chứng nhận",
         footerMapTitle: "Vị trí",
         footerCopyright: "&copy; 2025 Điện máy Tấn Lụa. All rights reserved."
     },
     categories: [
-        { name: "Thời trang", icon: "https://img.icons8.com/ios-filled/24/000000/t-shirt.png" },
-        { name: "Đồ điện tử", icon: "https://img.icons8.com/ios-filled/24/000000/smartphone.png" },
-        { name: "Sức khỏe", icon: "https://img.icons8.com/ios-filled/24/000000/heart-health.png" },
-        { name: "Nhà cửa", icon: "https://img.icons8.com/ios-filled/24/000000/home.png" },
-        { name: "Thức ăn", icon: "https://img.icons8.com/ios-filled/24/000000/food.png" },
-        { name: "Du lịch", icon: "https://img.icons8.com/ios-filled/24/000000/suitcase.png" },
-        { name: "Sách", icon: "https://img.icons8.com/ios-filled/24/000000/book.png" },
-        { name: "Thể thao", icon: "https://img.icons8.com/ios-filled/24/000000/soccer-ball.png" },
-        { name: "Sắc đẹp", icon: "https://img.icons8.com/ios-filled/24/000000/makeup.png" },
-        { name: "Đồ gia dụng", icon: "https://img.icons8.com/ios-filled/24/000000/kitchenware.png" }
+        { name: "Đầu xịt", icon: "https://img.icons8.com/ios-filled/24/000000/t-shirt.png" },
+        { name: "Máy cắt cỏ", icon: "https://img.icons8.com/ios-filled/24/000000/smartphone.png" },
+        { name: "Máy mài", icon: "https://img.icons8.com/ios-filled/24/000000/heart-health.png" },
+        { name: "Tia", icon: "https://img.icons8.com/ios-filled/24/000000/home.png" },
+        { name: "1HP", icon: "https://img.icons8.com/ios-filled/24/000000/food.png" },
+        { name: "2HP", icon: "https://img.icons8.com/ios-filled/24/000000/suitcase.png" },
+        { name: "Đầu kéo", icon: "https://img.icons8.com/ios-filled/24/000000/book.png" },
+        // { name: "Thể thao", icon: "https://img.icons8.com/ios-filled/24/000000/soccer-ball.png" },
+        // { name: "Sắc đẹp", icon: "https://img.icons8.com/ios-filled/24/000000/makeup.png" },
+        // { name: "Đồ gia dụng", icon: "https://img.icons8.com/ios-filled/24/000000/kitchenware.png" }
     ],
     footerImages: {
         zalo: { src: "https://img.icons8.com/ios-filled/24/ffffff/zalo.png", alt: "Zalo Icon", href: "https://zalo.me/0833090186" },
@@ -176,11 +179,12 @@ function renderContent() {
     });
     document.querySelector('#banner-title span').textContent = contentData.staticText.bannerTitle;
     document.getElementById('banner-subtitle').textContent = contentData.staticText.bannerSubtitle;
+    document.getElementById('banner-price').innerHTML = contentData.staticText.bannerInfo;
     document.getElementById('banner-discount-label').textContent = contentData.staticText.bannerDiscountLabel;
     document.getElementById('banner-discount').textContent = contentData.staticText.bannerDiscount;
     document.getElementById('banner-countdown-label').textContent = contentData.staticText.bannerCountdownLabel;
     document.getElementById('banner-buy-button').textContent = contentData.staticText.bannerBuyButton;
-    document.getElementById('banner-buy-button').setAttribute('onclick', `scrollToOrderForm('Sản phẩm HOT nhất Flash Sale', 'Giá cực sốc')`);
+    document.getElementById('banner-buy-button').setAttribute('onclick', `scrollToOrderForm('Đầu xịt ti xứ 2HP giá', '${contentData.staticText.bannerPrice}')`);
 
     // Categories (Header)
     const categoryList = document.getElementById('category-list');
