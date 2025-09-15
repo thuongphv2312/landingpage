@@ -157,7 +157,7 @@ const contentData = {
     ],
     footerImages: {
         zalo: { src: "https://img.icons8.com/ios-filled/24/ffffff/zalo.png", alt: "Zalo Icon", href: "https://zalo.me/0833090186" },
-        facebook: { src: "https://img.icons8.com/ios-filled/24/ffffff/facebook.png", alt: "Facebook Icon", href: "https://facebook.com/yourpage" },
+        facebook: { src: "https://img.icons8.com/ios-filled/24/ffffff/facebook.png", alt: "Facebook Icon", href: "https://www.facebook.com/profile.php?id=61552293012944&locale=vi_VN" },
         certification: { src: "https://dangkywebvoibocongthuong.com/wp-content/uploads/2021/11/logo-da-thong-bao-bo-cong-thuong.png", alt: "Đã đăng ký Bộ Công Thương", href: "http://online.gov.vn" },
         map: { src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7486.7292967347485!2d106.1765066!3d20.2437063!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31360b5da4c5a407%3A0x40f19f95635260ca!2zQ-G6p3UgVGFtIFRow7RuLCBM4buFIFTDrWNoLCBOZ2hEqWEgVGjDoWksIE5hbSDEkOG7i25o!5e0!3m2!1svi!2s!4v1757444264155!5m2!1svi!2s" }
     }

@@ -22,6 +22,13 @@ body {
     }
     .mobile-header .logo-container {
         order: 0;
+        position: relative;
+    }
+    .mobile-header .logo-container .icon-tl {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        color: #f97316;
     }
     .mobile-header .cart-icon {
         order: 0;
@@ -133,4 +140,13 @@ input:focus, textarea:focus {
 }
 .submit-button {
     position: relative;
+}
+.logo-container {
+    position: relative; 
+}
+.logo-container .icon-tl {
+    color: #f97316;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
