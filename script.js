@@ -84,46 +84,46 @@ const contentData = {
             rating: 5.0,
             sold: "2k+"
         },
-        {
-            id: 8,
-            section: "suggestion",
-            name: "Bàn phím cơ Fuhlen G900 Pro, Switch Blue",
-            price: "890.000₫",
-            originalPrice: "990.000₫",
-            image: "https://placehold.co/400x400/eeeeee/333333?text=S%E1%BA%A3n+ph%E1%BA%A9m+3",
-            rating: 4.8,
-            sold: "2k+"
-        },
-        {
-            id: 9,
-            section: "suggestion",
-            name: "Tai nghe không dây Bluetooth, Âm thanh HIFI",
-            price: "450.000₫",
-            originalPrice: "550.000₫",
-            image: "https://placehold.co/400x400/eeeeee/333333?text=S%E1%BA%A3n+ph%E1%BA%A9m+4",
-            rating: 4.7,
-            sold: "800+"
-        },
-        {
-            id: 10,
-            section: "suggestion",
-            name: "Cốc giữ nhiệt Starbucks, Inox 304",
-            price: "150.000₫",
-            originalPrice: "180.000₫",
-            image: "https://placehold.co/400x400/eeeeee/333333?text=S%E1%BA%A3n+ph%E1%BA%A9m+5",
-            rating: 4.9,
-            sold: "3.5k+"
-        },
-        {
-            id: 11,
-            section: "suggestion",
-            name: "Bình nước thể thao Lock&Lock 1.5L",
-            price: "75.000₫",
-            originalPrice: "90.000₫",
-            image: "https://placehold.co/400x400/eeeeee/333333?text=S%E1%BA%A3n+ph%E1%BA%A9m+6",
-            rating: 4.8,
-            sold: "1.2k+"
-        }
+        // {
+        //     id: 8,
+        //     section: "suggestion",
+        //     name: "Bàn phím cơ Fuhlen G900 Pro, Switch Blue",
+        //     price: "890.000₫",
+        //     originalPrice: "990.000₫",
+        //     image: "https://placehold.co/400x400/eeeeee/333333?text=S%E1%BA%A3n+ph%E1%BA%A9m+3",
+        //     rating: 4.8,
+        //     sold: "2k+"
+        // },
+        // {
+        //     id: 9,
+        //     section: "suggestion",
+        //     name: "Tai nghe không dây Bluetooth, Âm thanh HIFI",
+        //     price: "450.000₫",
+        //     originalPrice: "550.000₫",
+        //     image: "https://placehold.co/400x400/eeeeee/333333?text=S%E1%BA%A3n+ph%E1%BA%A9m+4",
+        //     rating: 4.7,
+        //     sold: "800+"
+        // },
+        // {
+        //     id: 10,
+        //     section: "suggestion",
+        //     name: "Cốc giữ nhiệt Starbucks, Inox 304",
+        //     price: "150.000₫",
+        //     originalPrice: "180.000₫",
+        //     image: "https://placehold.co/400x400/eeeeee/333333?text=S%E1%BA%A3n+ph%E1%BA%A9m+5",
+        //     rating: 4.9,
+        //     sold: "3.5k+"
+        // },
+        // {
+        //     id: 11,
+        //     section: "suggestion",
+        //     name: "Bình nước thể thao Lock&Lock 1.5L",
+        //     price: "75.000₫",
+        //     originalPrice: "90.000₫",
+        //     image: "https://placehold.co/400x400/eeeeee/333333?text=S%E1%BA%A3n+ph%E1%BA%A9m+6",
+        //     rating: 4.8,
+        //     sold: "1.2k+"
+        // }
     ],
     staticText: {
         siteTitle: "Điện máy Tấn Lụa",
