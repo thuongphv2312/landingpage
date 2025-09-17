@@ -1,7 +1,7 @@
 // JSON object chứa tất cả hình ảnh và văn bản
 const contentData = {
     pageTitle: "Điện máy Tấn Lụa",
-    productPrice: "1.300.000đ",
+    productPrice: "1.530.000đ",
     bannerImages: [
         { src: "https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-6/547277559_122252802716076433_8060441404242581768_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHOQpV6MtuI_ijqejV5VdL4tHurJdwCuh60e6sl3AK6Hp3ArxuQxMLaDgZHfVLti_QUBUCI2e77eaWENFwdkVt_&_nc_ohc=voHZf-iWokkQ7kNvwHc-S_x&_nc_oc=Adk-tIHASj4LnkJqHuOgoOs_IBFZiVUcn4auC5sFu62Y8tgwQOs1KahWXKm9ayHAAgM&_nc_zt=23&_nc_ht=scontent.fhan5-9.fna&_nc_gid=pUedwQWwuISCE07Yh6ILbg&oh=00_AfZSKdpBZXRx7Onty0Bm8HoYLDGIcnk4oh005rwbeWyGnA&oe=68CD8BE8", alt: "Sản phẩm 1" },
         { src: "https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/547485427_122252802692076433_1505029299060630018_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEa1eQ8Qlwh6h6y3FKGyanzLKmKAAGW_N0sqYoAAZb83YuFQ4VkF4ibMwT289-XEJYEt7jBnpHjt9OBbzCmFP5_&_nc_ohc=YwGByA-qev8Q7kNvwHBswjk&_nc_oc=AdnkhIXqNh7382rSkwRWroxdPnBOXhXaO5C5NTkiB1gWbwCVLW1Iwmut8jUP1Tu_82s&_nc_zt=23&_nc_ht=scontent.fhan5-10.fna&_nc_gid=h8-YllcF963Ac9H2Hdb-oQ&oh=00_Afa_bXwkeRlcvkznDkAbRpfrj6uhF0aZ_55Xv1BJjv4czw&oe=68CD8B6D", alt: "Sản phẩm 2" },
@@ -12,10 +12,10 @@ const contentData = {
         {
             id: 1,
             section: "flash-sale",
-            name: "Áo phông nam nữ, sale cực sốc",
-            price: "99.000₫",
-            originalPrice: "120.000₫",
-            image: "https://placehold.co/400x400/eeeeee/333333?text=S%E1%BA%A3n+ph%E1%BA%A9m+khuy%E1%BA%BFn+m%C3%A3i",
+            name: "Máy cắt có TL35X, sale sốc",
+            price: "1.250.000₫",
+            originalPrice: "1.800.000₫",
+            image: "https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/548035495_122253064466076433_4877525939999094750_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFFcMfHf4UQdpPFnQM432goqOa9DLd2Kqyo5r0Mt3YqrPsRGWOe107-gPCrqZmGMbW6bvYTWXy-j_lkEXHtZjLu&_nc_ohc=_E7QWdHT2v8Q7kNvwHwIC1t&_nc_oc=AdmHSzkjZXqYp_qTwAbWeVy939a9w6521n8bE71cLNCqDsEbpjl-4cRKym9s4J7TYX8&_nc_zt=23&_nc_ht=scontent.fhan5-10.fna&_nc_gid=h6PFbatuU4mgjFL5BdvEfQ&oh=00_AfY-PL1wj1XKXJtLLXbMlflADOeFLlOD5rYejadtoZi50g&oe=68CDB9AC",
             rating: 4.9,
             sold: "1k+",
             discountLabel: "Giá Sốc"
@@ -23,10 +23,10 @@ const contentData = {
         {
             id: 2,
             section: "flash-sale",
-            name: "Đồng hồ thông minh chống nước, pin trâu",
-            price: "1.250.000₫",
-            originalPrice: "1.500.000₫",
-            image: "https://placehold.co/400x400/eeeeee/333333?text=S%E1%BA%A3n+ph%E1%BA%A9m+khuy%E1%BA%BFn+m%C3%A3i+2",
+            name: "Đầu xịt ty sứ 1HP TL30S-TH",
+            price: "1.050.000₫",
+            originalPrice: "1.750.000₫",
+            image: "https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-6/547869787_122252802710076433_8033203101123091269_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH2YMJR9dGygqRgWfYMbzcSH4Po7MfEmlUfg-jsx8SaVdMsmiuRIlIJlswyH8k_iQhh8DfuHGIITJUSaoOjX1gx&_nc_ohc=zwTeae1VYPsQ7kNvwHsXYmV&_nc_oc=AdkUlCmO-7gK_9XSIlkNffKkS-Hnv1iLDsqGnDB-fUgp0m-ijRHK3yz7UAVqu2gZ_h8&_nc_zt=23&_nc_ht=scontent.fhan5-9.fna&_nc_gid=x6oWrS0SRFPLYZ_WNpmVsw&oh=00_AfYOM3DP43USGtBcwkcXTwhT9iJz5QT_sdiZUftqPHaBmw&oe=68CDC91B",
             rating: 5.0,
             sold: "500+",
             discountLabel: "Giá Sốc"
@@ -34,10 +34,10 @@ const contentData = {
         {
             id: 3,
             section: "flash-sale",
-            name: "Bàn phím cơ Fuhlen G900 Pro, Switch Blue",
-            price: "890.000₫",
-            originalPrice: "990.000₫",
-            image: "https://placehold.co/400x400/eeeeee/333333?text=S%E1%BA%A3n+ph%E1%BA%A9m+khuy%E1%BA%BFn+m%C3%A3i+3",
+            name: "Máy cắt cỏ TL35X Tojiko",
+            price: "1.300.000₫",
+            originalPrice: "2.100.000₫",
+            image: "https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/547536444_122253066476076433_4985379836131430984_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHzM246GBMWfOh0HhAzceoYauQobFcFR31q5ChsVwVHfdnU1a-NJ0UR7zcLypWQ-_8LbDlLIhRMIz8PHUm1h1K3&_nc_ohc=HNKH7q4BN1UQ7kNvwEAWmo1&_nc_oc=AdmMIESX8DE3IYs9bBO3dWdKKFD5RGHJ8x7r_MOi_Hll69A0D7nVlJYuk2lA9XpmxkA&_nc_zt=23&_nc_ht=scontent.fhan5-10.fna&_nc_gid=XHe5-rOcs37tXDIj4SjuGQ&oh=00_AfaKaE0uuvOjyO8Ni9pAF7nXlQjO6adQAxKYsJ-WxcVUZg&oe=68CE92B5",
             rating: 4.8,
             sold: "2k+",
             discountLabel: "Giá Sốc"
@@ -45,36 +45,47 @@ const contentData = {
         {
             id: 4,
             section: "flash-sale",
-            name: "Tai nghe không dây Bluetooth, Âm thanh HIFI",
-            price: "450.000₫",
-            originalPrice: "550.000₫",
-            image: "https://placehold.co/400x400/eeeeee/333333?text=S%E1%BA%A3n+ph%E1%BA%A9m+khuy%E1%BA%BFn+m%C3%A3i+4",
+            name: "Đầu xịt ty inox 1HP",
+            price: "850.000₫",
+            originalPrice: "1.350.000₫",
+            image: "https://scontent.fhan5-6.fna.fbcdn.net/v/t39.30808-6/547756528_122253066668076433_1743220469616308329_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEhUIx_AC4BG9keHmSBrvY9uBmhOJIuw3u4GaE4ki7De6Jy05Jx4dVh9U0uy1LwZvrVj7o6pez1hhUOW275avfq&_nc_ohc=9ZzKTmtcplwQ7kNvwEK0tlP&_nc_oc=Adl9ql1UG9t6Z01XZam2XUFZy67V3uv8KsXATeUI4zTBNmpcHGKMHUs-Y2-I9DGiWpY&_nc_zt=23&_nc_ht=scontent.fhan5-6.fna&_nc_gid=91WvRlddZ7euRbczSjwdcA&oh=00_Afb8P0u4HCsY-YGV-cPtI8U9szVK97tC69HlOFEQaLN25g&oe=68CE78FB",
             rating: 4.7,
             sold: "800+",
             discountLabel: "Giá Sốc"
         },
         {
             id: 5,
-            section: "suggestion",
-            name: "Áo phông nam nữ, đủ size, nhiều màu",
-            price: "99.000₫",
-            originalPrice: "120.000₫",
-            image: "https://placehold.co/400x400/eeeeee/333333?text=S%E1%BA%A3n+ph%E1%BA%A9m+1",
+            section: "flash-sale",
+            name: "Đầu xịt ty inox 2HP",
+            price: "1.150.000₫",
+            originalPrice: "1.850.000₫",
+            image: "https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/549548937_122253066542076433_4787357782438625685_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHowG8Pd9nfO8PoE5cPcKTCLLxLu8H1gcosvEu7wfWBypb2_wO1_rZw8vGMB2tJluKNBNARrzBT68byLaj32alr&_nc_ohc=51eYTSFJOF8Q7kNvwFPjp19&_nc_oc=AdkXshR2IktqHxIeP-iRthLsX9LWQeBRx9flNuZaLTvkcXsNelRaQu1J3c9m7KQ4HOg&_nc_zt=23&_nc_ht=scontent.fhan5-10.fna&_nc_gid=3rgIq5VT9y-XRGvGeWJceQ&oh=00_AfbfTCkGHjO5QRP_ACjbNDOgwPDLOa1PHo41ja3LQzdZDQ&oe=68CE8253",
             rating: 4.9,
-            sold: "1k+"
+            sold: "1k+",
+            discountLabel: "Giá Sốc"
         },
         {
             id: 6,
             section: "suggestion",
-            name: "Đồng hồ thông minh chống nước, pin trâu",
+            name: "Đầu xịt ty inox 2HP",
+            price: "1.150.000₫",
+            originalPrice: "1.850.000₫",
+            image: "https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/549548937_122253066542076433_4787357782438625685_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHowG8Pd9nfO8PoE5cPcKTCLLxLu8H1gcosvEu7wfWBypb2_wO1_rZw8vGMB2tJluKNBNARrzBT68byLaj32alr&_nc_ohc=51eYTSFJOF8Q7kNvwFPjp19&_nc_oc=AdkXshR2IktqHxIeP-iRthLsX9LWQeBRx9flNuZaLTvkcXsNelRaQu1J3c9m7KQ4HOg&_nc_zt=23&_nc_ht=scontent.fhan5-10.fna&_nc_gid=3rgIq5VT9y-XRGvGeWJceQ&oh=00_AfbfTCkGHjO5QRP_ACjbNDOgwPDLOa1PHo41ja3LQzdZDQ&oe=68CE8253",
+            rating: 4.9,
+            sold: "1k+"
+        },
+        {
+            id: 7,
+            section: "suggestion",
+            name: "Máy cắt cỏ TL35X Tojiko",
             price: "1.250.000₫",
             originalPrice: "1.500.000₫",
-            image: "https://placehold.co/400x400/eeeeee/333333?text=S%E1%BA%A3n+ph%E1%BA%A9m+2",
+            image: "https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/547536444_122253066476076433_4985379836131430984_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHzM246GBMWfOh0HhAzceoYauQobFcFR31q5ChsVwVHfdnU1a-NJ0UR7zcLypWQ-_8LbDlLIhRMIz8PHUm1h1K3&_nc_ohc=HNKH7q4BN1UQ7kNvwEAWmo1&_nc_oc=AdmMIESX8DE3IYs9bBO3dWdKKFD5RGHJ8x7r_MOi_Hll69A0D7nVlJYuk2lA9XpmxkA&_nc_zt=23&_nc_ht=scontent.fhan5-10.fna&_nc_gid=XHe5-rOcs37tXDIj4SjuGQ&oh=00_AfaKaE0uuvOjyO8Ni9pAF7nXlQjO6adQAxKYsJ-WxcVUZg&oe=68CE92B5",
             rating: 5.0,
             sold: "500+"
         },
         {
-            id: 7,
+            id: 8,
             section: "suggestion",
             name: "Bàn phím cơ Fuhlen G900 Pro, Switch Blue",
             price: "890.000₫",
@@ -84,7 +95,7 @@ const contentData = {
             sold: "2k+"
         },
         {
-            id: 8,
+            id: 9,
             section: "suggestion",
             name: "Tai nghe không dây Bluetooth, Âm thanh HIFI",
             price: "450.000₫",
@@ -94,7 +105,7 @@ const contentData = {
             sold: "800+"
         },
         {
-            id: 9,
+            id: 10,
             section: "suggestion",
             name: "Cốc giữ nhiệt Starbucks, Inox 304",
             price: "150.000₫",
@@ -104,7 +115,7 @@ const contentData = {
             sold: "3.5k+"
         },
         {
-            id: 10,
+            id: 11,
             section: "suggestion",
             name: "Bình nước thể thao Lock&Lock 1.5L",
             price: "75.000₫",
@@ -119,8 +130,8 @@ const contentData = {
         searchPlaceholder: "Điện máy Tấn Lụa - Giảm giá siêu sốc",
         bannerTitle: "SĂN DEAL SIÊU HOT",
         bannerSubtitle: "CHỈ DUY NHẤT HÔM NAY 50 SUẤT ĐẦU TIÊN CHO BÁC NÀO NHANH TAY",
-        bannerInfo: `Đầu xịt ti sứ 2HP giá &nbsp;<s>2.600.000đ</s> &nbsp; <span style="font-size: 28px; font-weight: bold; color: red;">1.300.000đ</span>`,
-        bannerPrice: `1.300.000đ`,
+        bannerInfo: `Đầu xịt ty sứ 2HP giá &nbsp;<s>2.600.000đ</s> &nbsp; <span style="font-size: 28px; font-weight: bold; color: red;">1.300.000đ</span>`,
+        bannerPrice: `1.530.000đ`,
         bannerDiscountLabel: "GIẢM ĐẾN",
         bannerDiscount: "50%",
         bannerCountdownLabel: "Kết thúc sau:",
@@ -184,7 +195,7 @@ function renderContent() {
     document.getElementById('banner-discount').textContent = contentData.staticText.bannerDiscount;
     document.getElementById('banner-countdown-label').textContent = contentData.staticText.bannerCountdownLabel;
     document.getElementById('banner-buy-button').textContent = contentData.staticText.bannerBuyButton;
-    document.getElementById('banner-buy-button').setAttribute('onclick', `scrollToOrderForm('Đầu xịt ti xứ 2HP giá', '${contentData.staticText.bannerPrice}')`);
+    document.getElementById('banner-buy-button').setAttribute('onclick', `scrollToOrderForm('Đầu xịt ty xứ 2HP giá', '${contentData.staticText.bannerPrice}')`);
 
     // Categories (Header)
     const categoryList = document.getElementById('category-list');
