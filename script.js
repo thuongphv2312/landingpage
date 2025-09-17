@@ -78,11 +78,11 @@ const contentData = {
             id: 7,
             section: "suggestion",
             name: "Máy cắt cỏ TL35X Tojiko",
-            price: "1.250.000₫",
-            originalPrice: "1.500.000₫",
+            price: "1.300.000₫",
+            originalPrice: "2.100.000₫",
             image: "https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/547536444_122253066476076433_4985379836131430984_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHzM246GBMWfOh0HhAzceoYauQobFcFR31q5ChsVwVHfdnU1a-NJ0UR7zcLypWQ-_8LbDlLIhRMIz8PHUm1h1K3&_nc_ohc=HNKH7q4BN1UQ7kNvwEAWmo1&_nc_oc=AdmMIESX8DE3IYs9bBO3dWdKKFD5RGHJ8x7r_MOi_Hll69A0D7nVlJYuk2lA9XpmxkA&_nc_zt=23&_nc_ht=scontent.fhan5-10.fna&_nc_gid=XHe5-rOcs37tXDIj4SjuGQ&oh=00_AfaKaE0uuvOjyO8Ni9pAF7nXlQjO6adQAxKYsJ-WxcVUZg&oe=68CE92B5",
             rating: 5.0,
-            sold: "500+"
+            sold: "2k+"
         },
         {
             id: 8,
