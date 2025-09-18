@@ -84,46 +84,46 @@ const contentData = {
             rating: 5.0,
             sold: "2k+"
         },
-        // {
-        //     id: 8,
-        //     section: "suggestion",
-        //     name: "Bàn phím cơ Fuhlen G900 Pro, Switch Blue",
-        //     price: "890.000₫",
-        //     originalPrice: "990.000₫",
-        //     image: "https://placehold.co/400x400/eeeeee/333333?text=S%E1%BA%A3n+ph%E1%BA%A9m+3",
-        //     rating: 4.8,
-        //     sold: "2k+"
-        // },
-        // {
-        //     id: 9,
-        //     section: "suggestion",
-        //     name: "Tai nghe không dây Bluetooth, Âm thanh HIFI",
-        //     price: "450.000₫",
-        //     originalPrice: "550.000₫",
-        //     image: "https://placehold.co/400x400/eeeeee/333333?text=S%E1%BA%A3n+ph%E1%BA%A9m+4",
-        //     rating: 4.7,
-        //     sold: "800+"
-        // },
-        // {
-        //     id: 10,
-        //     section: "suggestion",
-        //     name: "Cốc giữ nhiệt Starbucks, Inox 304",
-        //     price: "150.000₫",
-        //     originalPrice: "180.000₫",
-        //     image: "https://placehold.co/400x400/eeeeee/333333?text=S%E1%BA%A3n+ph%E1%BA%A9m+5",
-        //     rating: 4.9,
-        //     sold: "3.5k+"
-        // },
-        // {
-        //     id: 11,
-        //     section: "suggestion",
-        //     name: "Bình nước thể thao Lock&Lock 1.5L",
-        //     price: "75.000₫",
-        //     originalPrice: "90.000₫",
-        //     image: "https://placehold.co/400x400/eeeeee/333333?text=S%E1%BA%A3n+ph%E1%BA%A9m+6",
-        //     rating: 4.8,
-        //     sold: "1.2k+"
-        // }
+        {
+            id: 8,
+            section: "suggestion",
+            name: "Dây xịt tăng áp loại 10m",
+            price: "180.000₫",
+            originalPrice: "250.000₫",
+            image: "https://scontent.fhan5-11.fna.fbcdn.net/v/t39.30808-6/548562901_122253565976076433_3049459119445388409_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeETh8Nieh3kyehRbbxXWhvMQ_jLAWylKftD-MsBbKUp-xSv7-wIl5H39pwcLaTayAjn44GspyoLnFPCnRYL02kM&_nc_ohc=OWrS9fHL7dwQ7kNvwEg78cm&_nc_oc=Adl6z1-jZLklrBP1P10Xhl14PRdf3z7zHdI-LjZSuLu4WCOaUEk9dGWEJdJdpi3rYOc&_nc_zt=23&_nc_ht=scontent.fhan5-11.fna&_nc_gid=EfU6EC1DrKImlPw5KcEjKg&oh=00_AfYNU2TXnuDpSKQnzljS4BK29Uh9tVcHfnEQoOiNMgoSpw&oe=68D18CBC",
+            rating: 4.8,
+            sold: "2k+"
+        },
+        {
+            id: 9,
+            section: "suggestion",
+            name: "Dây xịt tăng áp loại 15m",
+            price: "250.000₫",
+            originalPrice: "380.000₫",
+            image: "https://scontent.fhan5-11.fna.fbcdn.net/v/t39.30808-6/548683735_122253565982076433_8638395383600207883_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGsc3DYzzOQuNMvvfI2uCSCFNMjB-7_UZUU0yMH7v9RlSngTmFaFwreOheUU-0QrFiSWzkQgmY0CbUDvAwGRV3X&_nc_ohc=0SsAU59qUYkQ7kNvwFEVPPr&_nc_oc=AdmSliHgjB5ncFcgWfcIbsCxp0kilmMnis46haUP-uu78jklUhm4VQ8CuK34SKjwROM&_nc_zt=23&_nc_ht=scontent.fhan5-11.fna&_nc_gid=ACQW9qAU8tq9RwMJMieJ3A&oh=00_AfakgFh2bMLB4ud7GQGGxSE5THy1n8tmUxTYDLZIj9biIQ&oe=68D19930",
+            rating: 4.7,
+            sold: "800+"
+        },
+        {
+            id: 10,
+            section: "suggestion",
+            name: "Dây xịt tăng áp loại 20m",
+            price: "320.000₫",
+            originalPrice: "480.000₫",
+            image: "https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/549515112_122253565970076433_7986915852751267979_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGhlLRJSxItfNbrglkkyPTgb8NwttdNdlhvw3C21012WPIT9fAtl9I54nS_SMxy6wBAkEKdoy37m7REBzbM1Fng&_nc_ohc=3HDvyRKpA1IQ7kNvwFFEIov&_nc_oc=AdnBwdtSrWW9310StrdJZ-fiMx-AS8vDzZQ-IFsi8mNZ7jPXAF8ZakgGygBgetqhX40&_nc_zt=23&_nc_ht=scontent.fhan5-10.fna&_nc_gid=--GelHPO9rLpW_7lThl4Ew&oh=00_AfZHfrKWwvmUX7CJbObCLw80YoRdxmUpR4JEr0qab4VdTg&oe=68D1B196",
+            rating: 4.9,
+            sold: "3.5k+"
+        },
+        {
+            id: 11,
+            section: "suggestion",
+            name: "Dây xịt tăng áp loại 50m",
+            price: "590.000₫",
+            originalPrice: "650.000₫",
+            image: "https://scontent.fhan5-6.fna.fbcdn.net/v/t39.30808-6/548780338_122253566066076433_7083590680050488923_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeErir2Gdmsm9wjlDT6fMvtEPcIXDpT1fSE9whcOlPV9IbizLlYt1sVXKCvkISjYoKkZxdZSaNHgfk27btqYh3eT&_nc_ohc=g6JOX-vD64AQ7kNvwHpje2Z&_nc_oc=AdkE-juEgjpdHNJJuGQAYy3uZoDE36l8yfPpfWfdZ3Ipz8L82_SJ4tDuwJ5_2Ey7LNw&_nc_zt=23&_nc_ht=scontent.fhan5-6.fna&_nc_gid=1dAbTyB07-hptFD-ihMcMw&oh=00_AfYCPKi8kWuVClwEbZe2FXvL3Jsi1icWUbOEDm_B5siB7A&oe=68D19288",
+            rating: 4.8,
+            sold: "1.2k+"
+        }
     ],
     staticText: {
         siteTitle: "Điện máy Tấn Lụa",
