@@ -1,6 +1,6 @@
 // JSON object chứa tất cả hình ảnh và văn bản
 const contentData = {
-    pageTitle: "Điện máy Tấn Lụa",
+    pageTitle: "Nông cơ 247",
     productPrice: "1.530.000đ",
     bannerImages: [
         { src: "https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-6/547277559_122252802716076433_8060441404242581768_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHOQpV6MtuI_ijqejV5VdL4tHurJdwCuh60e6sl3AK6Hp3ArxuQxMLaDgZHfVLti_QUBUCI2e77eaWENFwdkVt_&_nc_ohc=voHZf-iWokkQ7kNvwHc-S_x&_nc_oc=Adk-tIHASj4LnkJqHuOgoOs_IBFZiVUcn4auC5sFu62Y8tgwQOs1KahWXKm9ayHAAgM&_nc_zt=23&_nc_ht=scontent.fhan5-9.fna&_nc_gid=pUedwQWwuISCE07Yh6ILbg&oh=00_AfZSKdpBZXRx7Onty0Bm8HoYLDGIcnk4oh005rwbeWyGnA&oe=68CD8BE8", alt: "Sản phẩm 1" },
@@ -126,8 +126,8 @@ const contentData = {
         }
     ],
     staticText: {
-        siteTitle: "Điện máy Tấn Lụa",
-        searchPlaceholder: "Điện máy Tấn Lụa - Giảm giá siêu sốc",
+        siteTitle: "Nông cơ 247",
+        searchPlaceholder: "Nông cơ 247 - Giảm giá siêu sốc",
         bannerTitle: "SĂN DEAL SIÊU HOT",
         bannerSubtitle: "CHỈ DUY NHẤT HÔM NAY 50 SUẤT ĐẦU TIÊN CHO BÁC NÀO NHANH TAY",
         bannerInfo: `Đầu xịt ty sứ 2HP giá &nbsp;<s>2.600.000đ</s> &nbsp; <span style="font-size: 28px; font-weight: bold; color: red;">1.300.000đ</span>`,
@@ -152,7 +152,7 @@ const contentData = {
         footerAddress: "Địa chỉ: Cầu tam thôn, nghĩa thái, nghĩa hưng, nam định",
         footerCertificationTitle: "Chứng nhận",
         footerMapTitle: "Vị trí",
-        footerCopyright: "&copy; 2025 Điện máy Tấn Lụa. All rights reserved."
+        footerCopyright: "&copy; 2025 Nông cơ 247. All rights reserved."
     },
     categories: [
         { name: "Đầu xịt", icon: "https://img.icons8.com/ios-filled/24/000000/t-shirt.png" },
